@@ -1,0 +1,13 @@
+<div class="catalog-container">
+    <div class="search-bar">
+      <input [(ngModel)]="searchQuery" placeholder="Buscar productos...">
+      <button (click)="onSearch()">Buscar</button>
+    </div>
+    <div class="product-list">
+      <div *ngFor="let product of products" class="product-item">
+        <h2>{{ product.name }}</h2>
+        <p>{{ product.price | currency }}</p>
+      </div>
+    </div>
+  </div>
+  
