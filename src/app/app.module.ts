@@ -11,7 +11,7 @@ const appRoutes: Routes = [
 
 @NgModule({
   declarations: [
-     // Elimina AppComponent de aquí
+     // Elimina AppComponent de aquí :o
   ],
   imports: [
     BrowserModule,
